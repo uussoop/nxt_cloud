@@ -1,9 +1,4 @@
 
-```markdown
-# File Upload Script
-
-This script allows uploading files and directories to a remote server via PHP.
-
 ## Usage
 
 ### Upload a directory
