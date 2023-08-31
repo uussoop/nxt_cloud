@@ -16,7 +16,7 @@ def upload_dir(base_url, remote_directory, username, passw, localdir_path):
 
 
 def upload_file_from_url(url, base_url, directory, username, passw):
-    nc = nextcloud_client.Client(f"http://{base_url}")
+    nc = nextcloud_client.Client(f"{base_url}")
     nc.login(username, passw)
     try:
         nc.mkdir(directory)
@@ -31,7 +31,7 @@ def upload_file_from_url(url, base_url, directory, username, passw):
 
 
 def upload_file(local_file, base_url, directory, username, passw):
-    nc = nextcloud_client.Client(f"http://{base_url}")
+    nc = nextcloud_client.Client(f"{base_url}")
     nc.login(username, passw)
     try:
         nc.mkdir(directory)
