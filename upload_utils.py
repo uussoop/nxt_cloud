@@ -116,13 +116,13 @@ def zipandupload_directories(
 #     passw="pass",
 # )
 
-zipandupload(
-    localdir_path="test",
-    base_url="https://nx36834.your-storageshare.de/",
-    remote_directory="test",
-    username="",
-    passw="",
-)
+# zipandupload(
+#     localdir_path="test",
+#     base_url="https://nx36834.your-storageshare.de/",
+#     remote_directory="test",
+#     username="",
+#     passw="",
+# )
 
 # via curl loop
 # count=1
